@@ -27,3 +27,17 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 });
+
+// This is for shop
+
+document.addEventListener("DOMContentLoaded", function(){
+    const shopLink =document.getElementById("shop-link");
+    const productSection =document.getElementById("product-section");
+
+
+    shopLink.addEventListener("click", function(event){
+        event.preventDefault();
+        productSection.style.display ="block";
+
+    });
+});

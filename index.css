@@ -35,6 +35,51 @@ text-decoration: none;
 color: #000;
 font-weight: bold;
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+#product-section{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr);
+}
+.products{
+   width:500px;
+   height: 500px;
+   
+
+}
+.products img{
+    width: 400px;
+    height: 300px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.products p{
+    gap:5px;
+}
+
+.product{
+    display: none;
+    margin: 10px;
+    padding:10px;
+    background: lightgray;
+    width: 200px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
 .icons {
     display: flex;
     align-items: center;
